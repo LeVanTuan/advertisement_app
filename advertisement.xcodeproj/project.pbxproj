@@ -7,23 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51979C301E0A80DA00B21C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51979C2F1E0A80DA00B21C6F /* AppDelegate.swift */; };
-		51979C321E0A80DA00B21C6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51979C311E0A80DA00B21C6F /* ViewController.swift */; };
 		51979C351E0A80DA00B21C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51979C331E0A80DA00B21C6F /* Main.storyboard */; };
-		51979C371E0A80DA00B21C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51979C361E0A80DA00B21C6F /* Assets.xcassets */; };
 		51979C3A1E0A80DA00B21C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51979C381E0A80DA00B21C6F /* LaunchScreen.storyboard */; };
+		51979C4C1E0A851200B21C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51979C481E0A851200B21C6F /* AppDelegate.swift */; };
+		51979C501E0A854800B21C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51979C4F1E0A854800B21C6F /* Assets.xcassets */; };
+		51979C521E0A873A00B21C6F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51979C511E0A873A00B21C6F /* Info.plist */; };
 		9212420110A76CDE198ED88C /* Pods_advertisement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C32C136123A170285BAE43 /* Pods_advertisement.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44C32C136123A170285BAE43 /* Pods_advertisement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_advertisement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51979C2C1E0A80DA00B21C6F /* advertisement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = advertisement.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		51979C2F1E0A80DA00B21C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51979C311E0A80DA00B21C6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51979C341E0A80DA00B21C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		51979C361E0A80DA00B21C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51979C391E0A80DA00B21C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		51979C3B1E0A80DA00B21C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51979C481E0A851200B21C6F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51979C4F1E0A854800B21C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51979C511E0A873A00B21C6F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D780F3F5AD81ECB5A086948F /* Pods-advertisement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-advertisement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-advertisement/Pods-advertisement.debug.xcconfig"; sourceTree = "<group>"; };
 		F125DE4167A46E33AE40AFAE /* Pods-advertisement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-advertisement.release.xcconfig"; path = "Pods/Target Support Files/Pods-advertisement/Pods-advertisement.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,14 +60,45 @@
 		51979C2E1E0A80DA00B21C6F /* advertisement */ = {
 			isa = PBXGroup;
 			children = (
-				51979C2F1E0A80DA00B21C6F /* AppDelegate.swift */,
-				51979C311E0A80DA00B21C6F /* ViewController.swift */,
-				51979C331E0A80DA00B21C6F /* Main.storyboard */,
-				51979C361E0A80DA00B21C6F /* Assets.xcassets */,
-				51979C381E0A80DA00B21C6F /* LaunchScreen.storyboard */,
-				51979C3B1E0A80DA00B21C6F /* Info.plist */,
+				51979C511E0A873A00B21C6F /* Info.plist */,
+				51979C471E0A851200B21C6F /* App Delegate */,
+				51979C491E0A851200B21C6F /* Classes */,
+				51979C4A1E0A851200B21C6F /* Main */,
+				51979C4E1E0A854800B21C6F /* Resources */,
 			);
 			path = advertisement;
+			sourceTree = "<group>";
+		};
+		51979C471E0A851200B21C6F /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				51979C481E0A851200B21C6F /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		51979C491E0A851200B21C6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		51979C4A1E0A851200B21C6F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				51979C381E0A80DA00B21C6F /* LaunchScreen.storyboard */,
+				51979C331E0A80DA00B21C6F /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		51979C4E1E0A854800B21C6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51979C4F1E0A854800B21C6F /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		FDEF50DA5B99413591266DBA /* Pods */ = {
@@ -123,6 +153,7 @@
 				TargetAttributes = {
 					51979C2B1E0A80DA00B21C6F = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WNM28K894G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,8 +181,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51979C521E0A873A00B21C6F /* Info.plist in Resources */,
 				51979C3A1E0A80DA00B21C6F /* LaunchScreen.storyboard in Resources */,
-				51979C371E0A80DA00B21C6F /* Assets.xcassets in Resources */,
+				51979C501E0A854800B21C6F /* Assets.xcassets in Resources */,
 				51979C351E0A80DA00B21C6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,8 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51979C321E0A80DA00B21C6F /* ViewController.swift in Sources */,
-				51979C301E0A80DA00B21C6F /* AppDelegate.swift in Sources */,
+				51979C4C1E0A851200B21C6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +256,7 @@
 				51979C341E0A80DA00B21C6F /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		51979C381E0A80DA00B21C6F /* LaunchScreen.storyboard */ = {
@@ -233,6 +265,7 @@
 				51979C391E0A80DA00B21C6F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,9 +369,12 @@
 			baseConfigurationReference = D780F3F5AD81ECB5A086948F /* Pods-advertisement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WNM28K894G;
 				INFOPLIST_FILE = advertisement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LeoLE.advertisement;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoLE.advertisement-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -349,9 +385,12 @@
 			baseConfigurationReference = F125DE4167A46E33AE40AFAE /* Pods-advertisement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WNM28K894G;
 				INFOPLIST_FILE = advertisement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LeoLE.advertisement;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoLE.advertisement-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
