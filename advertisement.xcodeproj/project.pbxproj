@@ -19,9 +19,9 @@
 		51C5666F1E0B72A70016BF3F /* AppDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C5666E1E0B72A70016BF3F /* AppDefines.swift */; };
 		51C566731E0B75FC0016BF3F /* ListAdsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C566711E0B75FC0016BF3F /* ListAdsCell.swift */; };
 		51C566741E0B75FC0016BF3F /* ListAdsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C566721E0B75FC0016BF3F /* ListAdsCell.xib */; };
-		51C566791E0B7E1F0016BF3F /* apple_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51C566771E0B7E1F0016BF3F /* apple_banner.jpg */; };
-		51C5667A1E0B7E1F0016BF3F /* google_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51C566781E0B7E1F0016BF3F /* google_banner.jpg */; };
 		51C5667C1E0B91F70016BF3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51C5667B1E0B91F70016BF3F /* GoogleService-Info.plist */; };
+		51C5667E1E0BBC920016BF3F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C5667D1E0BBC920016BF3F /* iAd.framework */; };
+		51C566801E0BC5FE0016BF3F /* banner_placeholder.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 51C5667F1E0BC5FE0016BF3F /* banner_placeholder.PNG */; };
 		9212420110A76CDE198ED88C /* Pods_advertisement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C32C136123A170285BAE43 /* Pods_advertisement.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,9 +40,9 @@
 		51C5666E1E0B72A70016BF3F /* AppDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefines.swift; sourceTree = "<group>"; };
 		51C566711E0B75FC0016BF3F /* ListAdsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAdsCell.swift; sourceTree = "<group>"; };
 		51C566721E0B75FC0016BF3F /* ListAdsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListAdsCell.xib; sourceTree = "<group>"; };
-		51C566771E0B7E1F0016BF3F /* apple_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_banner.jpg; sourceTree = "<group>"; };
-		51C566781E0B7E1F0016BF3F /* google_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = google_banner.jpg; sourceTree = "<group>"; };
 		51C5667B1E0B91F70016BF3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		51C5667D1E0BBC920016BF3F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		51C5667F1E0BC5FE0016BF3F /* banner_placeholder.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_placeholder.PNG; sourceTree = "<group>"; };
 		D780F3F5AD81ECB5A086948F /* Pods-advertisement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-advertisement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-advertisement/Pods-advertisement.debug.xcconfig"; sourceTree = "<group>"; };
 		F125DE4167A46E33AE40AFAE /* Pods-advertisement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-advertisement.release.xcconfig"; path = "Pods/Target Support Files/Pods-advertisement/Pods-advertisement.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C5667E1E0BBC920016BF3F /* iAd.framework in Frameworks */,
 				9212420110A76CDE198ED88C /* Pods_advertisement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,9 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				51C566691E0B71080016BF3F /* apple_icon.png */,
+				51C5667F1E0BC5FE0016BF3F /* banner_placeholder.PNG */,
 				51C5666A1E0B71080016BF3F /* google_icon.png */,
-				51C566771E0B7E1F0016BF3F /* apple_banner.jpg */,
-				51C566781E0B7E1F0016BF3F /* google_banner.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -175,6 +175,7 @@
 		FE2C367542DF2A2048B155AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51C5667D1E0BBC920016BF3F /* iAd.framework */,
 				44C32C136123A170285BAE43 /* Pods_advertisement.framework */,
 			);
 			name = Frameworks;
@@ -243,9 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51C566791E0B7E1F0016BF3F /* apple_banner.jpg in Resources */,
 				51979C521E0A873A00B21C6F /* Info.plist in Resources */,
-				51C5667A1E0B7E1F0016BF3F /* google_banner.jpg in Resources */,
+				51C566801E0BC5FE0016BF3F /* banner_placeholder.PNG in Resources */,
 				51979C3A1E0A80DA00B21C6F /* LaunchScreen.storyboard in Resources */,
 				51C566671E0B6E890016BF3F /* MainViewController.xib in Resources */,
 				51C5666B1E0B71080016BF3F /* apple_icon.png in Resources */,
