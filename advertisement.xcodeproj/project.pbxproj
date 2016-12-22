@@ -12,6 +12,16 @@
 		51979C4C1E0A851200B21C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51979C481E0A851200B21C6F /* AppDelegate.swift */; };
 		51979C501E0A854800B21C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51979C4F1E0A854800B21C6F /* Assets.xcassets */; };
 		51979C521E0A873A00B21C6F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51979C511E0A873A00B21C6F /* Info.plist */; };
+		51C566661E0B6E890016BF3F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C566641E0B6E890016BF3F /* MainViewController.swift */; };
+		51C566671E0B6E890016BF3F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C566651E0B6E890016BF3F /* MainViewController.xib */; };
+		51C5666B1E0B71080016BF3F /* apple_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C566691E0B71080016BF3F /* apple_icon.png */; };
+		51C5666C1E0B71080016BF3F /* google_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C5666A1E0B71080016BF3F /* google_icon.png */; };
+		51C5666F1E0B72A70016BF3F /* AppDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C5666E1E0B72A70016BF3F /* AppDefines.swift */; };
+		51C566731E0B75FC0016BF3F /* ListAdsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C566711E0B75FC0016BF3F /* ListAdsCell.swift */; };
+		51C566741E0B75FC0016BF3F /* ListAdsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C566721E0B75FC0016BF3F /* ListAdsCell.xib */; };
+		51C566791E0B7E1F0016BF3F /* apple_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51C566771E0B7E1F0016BF3F /* apple_banner.jpg */; };
+		51C5667A1E0B7E1F0016BF3F /* google_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51C566781E0B7E1F0016BF3F /* google_banner.jpg */; };
+		51C5667C1E0B91F70016BF3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51C5667B1E0B91F70016BF3F /* GoogleService-Info.plist */; };
 		9212420110A76CDE198ED88C /* Pods_advertisement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C32C136123A170285BAE43 /* Pods_advertisement.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +33,16 @@
 		51979C481E0A851200B21C6F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51979C4F1E0A854800B21C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51979C511E0A873A00B21C6F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C566641E0B6E890016BF3F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		51C566651E0B6E890016BF3F /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		51C566691E0B71080016BF3F /* apple_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple_icon.png; sourceTree = "<group>"; };
+		51C5666A1E0B71080016BF3F /* google_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_icon.png; sourceTree = "<group>"; };
+		51C5666E1E0B72A70016BF3F /* AppDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefines.swift; sourceTree = "<group>"; };
+		51C566711E0B75FC0016BF3F /* ListAdsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAdsCell.swift; sourceTree = "<group>"; };
+		51C566721E0B75FC0016BF3F /* ListAdsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListAdsCell.xib; sourceTree = "<group>"; };
+		51C566771E0B7E1F0016BF3F /* apple_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_banner.jpg; sourceTree = "<group>"; };
+		51C566781E0B7E1F0016BF3F /* google_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = google_banner.jpg; sourceTree = "<group>"; };
+		51C5667B1E0B91F70016BF3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D780F3F5AD81ECB5A086948F /* Pods-advertisement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-advertisement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-advertisement/Pods-advertisement.debug.xcconfig"; sourceTree = "<group>"; };
 		F125DE4167A46E33AE40AFAE /* Pods-advertisement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-advertisement.release.xcconfig"; path = "Pods/Target Support Files/Pods-advertisement/Pods-advertisement.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +80,7 @@
 		51979C2E1E0A80DA00B21C6F /* advertisement */ = {
 			isa = PBXGroup;
 			children = (
+				51C5667B1E0B91F70016BF3F /* GoogleService-Info.plist */,
 				51979C511E0A873A00B21C6F /* Info.plist */,
 				51979C471E0A851200B21C6F /* App Delegate */,
 				51979C491E0A851200B21C6F /* Classes */,
@@ -80,6 +101,8 @@
 		51979C491E0A851200B21C6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				51C5666D1E0B72950016BF3F /* AppDefines */,
+				51C566631E0B6E7B0016BF3F /* MainViewController */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -96,9 +119,48 @@
 		51979C4E1E0A854800B21C6F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				51C566681E0B71080016BF3F /* Images */,
 				51979C4F1E0A854800B21C6F /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		51C566631E0B6E7B0016BF3F /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				51C566701E0B75D00016BF3F /* Cells */,
+				51C566641E0B6E890016BF3F /* MainViewController.swift */,
+				51C566651E0B6E890016BF3F /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		51C566681E0B71080016BF3F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				51C566691E0B71080016BF3F /* apple_icon.png */,
+				51C5666A1E0B71080016BF3F /* google_icon.png */,
+				51C566771E0B7E1F0016BF3F /* apple_banner.jpg */,
+				51C566781E0B7E1F0016BF3F /* google_banner.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		51C5666D1E0B72950016BF3F /* AppDefines */ = {
+			isa = PBXGroup;
+			children = (
+				51C5666E1E0B72A70016BF3F /* AppDefines.swift */,
+			);
+			path = AppDefines;
+			sourceTree = "<group>";
+		};
+		51C566701E0B75D00016BF3F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				51C566711E0B75FC0016BF3F /* ListAdsCell.swift */,
+				51C566721E0B75FC0016BF3F /* ListAdsCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		FDEF50DA5B99413591266DBA /* Pods */ = {
@@ -181,9 +243,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C566791E0B7E1F0016BF3F /* apple_banner.jpg in Resources */,
 				51979C521E0A873A00B21C6F /* Info.plist in Resources */,
+				51C5667A1E0B7E1F0016BF3F /* google_banner.jpg in Resources */,
 				51979C3A1E0A80DA00B21C6F /* LaunchScreen.storyboard in Resources */,
+				51C566671E0B6E890016BF3F /* MainViewController.xib in Resources */,
+				51C5666B1E0B71080016BF3F /* apple_icon.png in Resources */,
+				51C566741E0B75FC0016BF3F /* ListAdsCell.xib in Resources */,
 				51979C501E0A854800B21C6F /* Assets.xcassets in Resources */,
+				51C5667C1E0B91F70016BF3F /* GoogleService-Info.plist in Resources */,
+				51C5666C1E0B71080016BF3F /* google_icon.png in Resources */,
 				51979C351E0A80DA00B21C6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,7 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C566731E0B75FC0016BF3F /* ListAdsCell.swift in Sources */,
+				51C5666F1E0B72A70016BF3F /* AppDefines.swift in Sources */,
 				51979C4C1E0A851200B21C6F /* AppDelegate.swift in Sources */,
+				51C566661E0B6E890016BF3F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
