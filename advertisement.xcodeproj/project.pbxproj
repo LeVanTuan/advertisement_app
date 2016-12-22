@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51667B6D1E0BEBDA00F4B8E0 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51667B6C1E0BEBDA00F4B8E0 /* UIImageViewExtension.swift */; };
 		51979C351E0A80DA00B21C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51979C331E0A80DA00B21C6F /* Main.storyboard */; };
 		51979C3A1E0A80DA00B21C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51979C381E0A80DA00B21C6F /* LaunchScreen.storyboard */; };
 		51979C4C1E0A851200B21C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51979C481E0A851200B21C6F /* AppDelegate.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		44C32C136123A170285BAE43 /* Pods_advertisement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_advertisement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51667B6C1E0BEBDA00F4B8E0 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		51979C2C1E0A80DA00B21C6F /* advertisement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = advertisement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51979C341E0A80DA00B21C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51979C391E0A80DA00B21C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51667B6B1E0BEBCA00F4B8E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				51667B6C1E0BEBDA00F4B8E0 /* UIImageViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		51979C231E0A80DA00B21C6F = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +112,7 @@
 		51979C491E0A851200B21C6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				51667B6B1E0BEBCA00F4B8E0 /* Extensions */,
 				51C5666D1E0B72950016BF3F /* AppDefines */,
 				51C566631E0B6E7B0016BF3F /* MainViewController */,
 			);
@@ -194,6 +205,7 @@
 				51979C2A1E0A80DA00B21C6F /* Resources */,
 				B08C41836A60F7E11A53CCEB /* [CP] Embed Pods Frameworks */,
 				7568E45FD5B9871F41B69FD2 /* [CP] Copy Pods Resources */,
+				51C566811E0BD29F0016BF3F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -275,6 +287,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		51C566811E0BD29F0016BF3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 62ec08d2275e45b13914fc22e3ace06d1648d81f ab70f9386d67d5bba864e5cce8a4447d1ada966628e811b745f400dcc075802b";
+		};
 		7568E45FD5B9871F41B69FD2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51667B6D1E0BEBDA00F4B8E0 /* UIImageViewExtension.swift in Sources */,
 				51C566731E0B75FC0016BF3F /* ListAdsCell.swift in Sources */,
 				51C5666F1E0B72A70016BF3F /* AppDefines.swift in Sources */,
 				51979C4C1E0A851200B21C6F /* AppDelegate.swift in Sources */,

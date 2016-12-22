@@ -10,5 +10,7 @@ target 'advertisement' do
   # Pods for advertisement
   pod 'Firebase/Core'
   pod 'Firebase/AdMob'
-
+  pod 'Fabric'
+  pod 'Crashlytics'
+  
 end
