@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514FD9591E0D39F000045E0E /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514FD9581E0D39F000045E0E /* GoogleMobileAds.framework */; };
 		51667B6D1E0BEBDA00F4B8E0 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51667B6C1E0BEBDA00F4B8E0 /* UIImageViewExtension.swift */; };
 		51979C351E0A80DA00B21C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51979C331E0A80DA00B21C6F /* Main.storyboard */; };
 		51979C3A1E0A80DA00B21C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51979C381E0A80DA00B21C6F /* LaunchScreen.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		44C32C136123A170285BAE43 /* Pods_advertisement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_advertisement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		514FD9581E0D39F000045E0E /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		51667B6C1E0BEBDA00F4B8E0 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		51979C2C1E0A80DA00B21C6F /* advertisement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = advertisement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51979C341E0A80DA00B21C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514FD9591E0D39F000045E0E /* GoogleMobileAds.framework in Frameworks */,
 				51C5667E1E0BBC920016BF3F /* iAd.framework in Frameworks */,
 				9212420110A76CDE198ED88C /* Pods_advertisement.framework in Frameworks */,
 			);
@@ -62,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		514FD9571E0D39F000045E0E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				514FD9581E0D39F000045E0E /* GoogleMobileAds.framework */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 		51667B6B1E0BEBCA00F4B8E0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +102,7 @@
 		51979C2E1E0A80DA00B21C6F /* advertisement */ = {
 			isa = PBXGroup;
 			children = (
+				514FD9571E0D39F000045E0E /* Libraries */,
 				51C5667B1E0B91F70016BF3F /* GoogleService-Info.plist */,
 				51979C511E0A873A00B21C6F /* Info.plist */,
 				51979C471E0A851200B21C6F /* App Delegate */,
@@ -469,6 +481,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = WNM28K894G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/advertisement/Libraries",
+				);
 				INFOPLIST_FILE = advertisement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -485,6 +501,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = WNM28K894G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/advertisement/Libraries",
+				);
 				INFOPLIST_FILE = advertisement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
